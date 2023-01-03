@@ -30,3 +30,5 @@ use Illuminate\Support\Facades\Route;
     Route::get('our-team', [\App\Http\Controllers\Front\TeamController::class,'team'])->name('front.team');
 
     Route::get('testimonies', [\App\Http\Controllers\Front\TestimonyController::class,'testimony'])->name('front.testimony');
+
+    Route::get('contact-us', [\App\Http\Controllers\Front\ContactController::class,'index'])->name('front.contact');

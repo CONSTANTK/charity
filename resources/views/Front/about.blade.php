@@ -77,7 +77,7 @@
                         <a href="{{asset('chari/404.html')}}" class="dropdown-item">404 Page</a>
                     </div>
                 </div>
-                <a href="{{asset('chari/contact.html')}}" class="nav-item nav-link">Contact</a>
+                <a href="{{route('front.contact')}}" class="nav-item nav-link">Contact</a>
             </div>
             <div class="d-none d-lg-flex ms-2">
                 <a class="btn btn-outline-primary py-2 px-3" href="">
