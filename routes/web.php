@@ -32,3 +32,5 @@ use Illuminate\Support\Facades\Route;
     Route::get('testimonies', [\App\Http\Controllers\Front\TestimonyController::class,'testimony'])->name('front.testimony');
 
     Route::get('contact-us', [\App\Http\Controllers\Front\ContactController::class,'index'])->name('front.contact');
+
+    Route::get('error-page', [\App\Http\Controllers\Front\ErrorController::class,'index'])->name('front.404');

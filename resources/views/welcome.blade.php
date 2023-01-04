@@ -57,7 +57,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="{{asset('chari/index.html')}}" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="fw-bold text-primary m-0">Chari<span class="text-white">Team</span></h1>
+            <h1 class="fw-bold text-primary m-0">White<span class="text-white">Ribbon</span></h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -80,7 +80,7 @@
                 <a href="{{route('front.contact')}}" class="nav-item nav-link">Contact</a>
             </div>
             <div class="d-none d-lg-flex ms-2">
-                <a class="btn btn-outline-primary py-2 px-3" href="">
+                <a class="btn btn-outline-primary py-2 px-3" href="{{route('front.donate')}}">
                     Donate Now
                     <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                         <i class="fa fa-arrow-right"></i>
@@ -394,7 +394,7 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary px-5" style="height: 60px;">
+                                <button class="btn btn-primary px-5" style="{{asset('chari/height: 60px;')}}" href="{{route('front.donate')}}">
                                     Donate Now
                                     <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                         <i class="fa fa-arrow-right"></i>
@@ -532,7 +532,7 @@
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
-                <h1 class="fw-bold text-primary mb-4">Chari<span class="text-white">Team</span></h1>
+                <h1 class="fw-bold text-primary mb-4">White<span class="text-white">Ribbon</span></h1>
                 <p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
                 <div class="d-flex pt-2">
                     <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>

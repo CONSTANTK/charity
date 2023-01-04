@@ -74,15 +74,15 @@
                         <a href="{{route('front.donate')}}" class="dropdown-item">Donate</a>
                         <a href="{{route('front.team')}}" class="dropdown-item">Our Team</a>
                         <a href="{{route('front.testimony')}}" class="dropdown-item">Testimonial</a>
-                        <a href="{{asset('chari/404.html')}}" class="dropdown-item">404 Page</a>
+                        <a href="{{route('front.404')}}" class="dropdown-item">404 Page</a>
                     </div>
                 </div>
                 <a href="{{route('front.contact')}}" class="nav-item nav-link active">Contact</a>
             </div>
             <div class="d-none d-lg-flex ms-2">
-                <a class="btn btn-outline-primary py-2 px-3" href="">
-                    <a href="{{route('front.donate')}}" class="dropdown-item">Donate</a>
+                <a class="btn btn-outline-primary py-2 px-3" href="{{route('front.donate')}}">
                     Donate Now
+
                     <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                         <i class="fa fa-arrow-right"></i>
                     </div>
