@@ -157,8 +157,8 @@
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('chari/img/about-1.jpg')}}" alt="" style="object-fit: cover;">
-                    <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="{{asset('chari/img/about-2.jpg')}}" alt="" style="width: 200px; height: 200px;">
+                    <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('chari/img/about-1.jpg')}}" alt="" style="{{asset('chari/object-fit: cover;')}}">
+                    <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="{{asset('chari/img/about-2.jpg')}}" alt="" style="{{asset('chari/width: 200px; height: 200px;')}}">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -306,7 +306,7 @@
 <!-- Service Start -->
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="{{asset('chari/max-width: 500px;')}}">
             <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">What We Do</div>
             <h1 class="display-6 mb-5">Learn More What We Do And Get Involved</h1>
         </div>
@@ -414,7 +414,7 @@
 <!-- Team Start -->
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="{{asset('chari/max-width: 500px;')}}">
             <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Team Members</div>
             <h1 class="display-6 mb-5">Let's Meet With Our Ordinary Soldiers</h1>
         </div>
@@ -492,13 +492,13 @@
 <!-- Testimonial Start -->
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="{{asset('chari/max-width: 500px;')}}">
             <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Testimonial</div>
             <h1 class="display-6 mb-5">Trusted By Thousands Of People And Nonprofits</h1>
         </div>
         <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
             <div class="testimonial-item text-center">
-                <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="{{asset('chari/img/testimonial-1.jpg')}}" style="width: 100px; height: 100px;">
+                <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="{{asset('chari/img/testimonial-1.jpg')}}" style="{{asset('chari/width: 100px; height: 100px;')}}">
                 <div class="testimonial-text rounded text-center p-4">
                     <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
                     <h5 class="mb-1">Doner Name</h5>
@@ -506,7 +506,7 @@
                 </div>
             </div>
             <div class="testimonial-item text-center">
-                <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="{{asset('chari/img/testimonial-2.jpg')}}" style="width: 100px; height: 100px;">
+                <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="{{asset('chari/img/testimonial-2.jpg')}}" style="{{asset('chari/width: 100px; height: 100px;')}}">
                 <div class="testimonial-text rounded text-center p-4">
                     <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
                     <h5 class="mb-1">Doner Name</h5>
@@ -514,7 +514,7 @@
                 </div>
             </div>
             <div class="testimonial-item text-center">
-                <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="{{asset('chari/img/testimonial-3.jpg')}}" style="width: 100px; height: 100px;">
+                <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="{{asset('chari/img/testimonial-3.jpg')}}" style="{{asset('chari/width: 100px; height: 100px;')}}">
                 <div class="testimonial-text rounded text-center p-4">
                     <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
                     <h5 class="mb-1">Doner Name</h5>
@@ -532,7 +532,7 @@
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
-                <h1 class="fw-bold text-primary mb-4">White<span class="text-white">RibbonGH</span></h1>
+                <h1 class="fw-bold text-primary mb-4">White<span class="text-white">Ribbon</span></h1>
                 <p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
                 <div class="d-flex pt-2">
                     <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>

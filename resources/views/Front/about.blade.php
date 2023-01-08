@@ -115,9 +115,9 @@
     <div class="container">
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
+                <div class="position-relative overflow-hidden h-100" style="{{asset('chari/min-height: 400px;')}}">
                     <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset('chari/img/about-1.jpg')}}" alt="" style="{{asset('chari/object-fit: cover;')}}">
-                    <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="{{asset('chari/img/about-2.jpg')}}" alt="" style="width: 200px; height: 200px;">
+                    <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="{{asset('chari/img/about-2.jpg')}}" alt="" style="{{asset('chari/width: 200px; height: 200px;')}}">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -152,7 +152,7 @@
 <!-- Service Start -->
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="{{asset('chari/max-width: 500px;')}}">
             <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">What We Do</div>
             <h1 class="display-6 mb-5">Learn More What We Do And Get Involved</h1>
         </div>
@@ -285,7 +285,7 @@
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
-                <h1 class="fw-bold text-primary mb-4">White<span class="text-white">RibbonGh</span></h1>
+                <h1 class="fw-bold text-primary mb-4">White<span class="text-white">Ribbon</span></h1>
                 <p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
                 <div class="d-flex pt-2">
                     <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>

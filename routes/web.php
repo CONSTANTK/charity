@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
     });
 
-    Route::get('home', [\App\Http\Controllers\Front\WelcomeController::class,'index'])->name('front.index');
+    Route::get('/', [\App\Http\Controllers\Front\WelcomeController::class,'index'])->name('front.index');
 
     Route::get('about', [\App\Http\Controllers\Front\AboutController::class,'about'])->name('front.about');
 
