@@ -56,8 +56,8 @@
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="{{asset('chari/index.html')}}" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="fw-bold text-primary m-0">White<span class="text-white">Ribbon</span></h1>
+        <a href="{{route('front.index')}}" class="navbar-brand ms-4 ms-lg-0">
+            <h1 class="fw-bold text-primary m-0">White<span class="text-white">RibbonGh</span></h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -532,7 +532,7 @@
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
-                <h1 class="fw-bold text-primary mb-4">White<span class="text-white">Ribbon</span></h1>
+                <h1 class="fw-bold text-primary mb-4">White<span class="text-white">RibbonGH</span></h1>
                 <p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
                 <div class="d-flex pt-2">
                     <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
@@ -549,16 +549,16 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Quick Links</h5>
-                <a class="btn btn-link" href="">About Us</a>
-                <a class="btn btn-link" href="">Contact Us</a>
-                <a class="btn btn-link" href="">Our Services</a>
+                <a class="btn btn-link" href="{{route('front.about')}}">About Us</a>
+                <a class="btn btn-link" href="{{route('front.contact')}}">Contact Us</a>
+                <a class="btn btn-link" href="{{route('front.services')}}">Our Services</a>
                 <a class="btn btn-link" href="">Terms & Condition</a>
-                <a class="btn btn-link" href="">Support</a>
+                <a class="btn btn-link" href="{{route('front.donate')}}">Support</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Newsletter</h5>
                 <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                <div class="position-relative mx-auto" style="max-width: 400px;">
+                <div class="position-relative mx-auto" style="{{asset('chari/max-width: 400px;')}}">
                     <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                     <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                 </div>
